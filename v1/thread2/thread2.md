@@ -1,6 +1,6 @@
-#11/30 getid（）获得进程的id
+# 11/30 getid（）获得进程的id
 
-##命名空间std::this_thread提供了一组关于当前线程的函数
+## 命名空间std::this_thread提供了一组关于当前线程的函数
 
 this::this_thread::get_id()获取线程id
 
@@ -9,7 +9,7 @@ this::this_thread::get_id()获取线程id
 std::this_thread::get_id()//返回线程id
 
 ```
-##this_thread::yield()放弃当前线程占用时间片使CPU重新调度以便其它线程执行
+## this_thread::yield()放弃当前线程占用时间片使CPU重新调度以便其它线程执行
 
 ```
 bool g_ready;
@@ -21,14 +21,14 @@ thread t(waitReady);
 t.detach();
 ```
 
-##std::this_thread::sleeo_for()阻塞当前线程一段时间
+## std::this_thread::sleeo_for()阻塞当前线程一段时间
 
 ```
 this_thread::sleep_for(chrono::nanoseconds(1000));//阻塞当前线程1000纳秒
 
 ```
 
-##std::this_thread::sleep_until()阻塞当前线程直到某个时间点
+## std::this_thread::sleep_until()阻塞当前线程直到某个时间点
 
 ```
 template< class Clock, class Duration >
