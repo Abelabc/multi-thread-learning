@@ -1,3 +1,0 @@
-F:/github_project/multi-thread-learning/v1/thread/cmake-build-debug/CMakeFiles/thread.dir
-F:/github_project/multi-thread-learning/v1/thread/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/github_project/multi-thread-learning/v1/thread/cmake-build-debug/CMakeFiles/rebuild_cache.dir
