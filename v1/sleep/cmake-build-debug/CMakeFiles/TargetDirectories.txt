@@ -1,0 +1,3 @@
+F:/github_project/multi-thread-learning/v1/slepp/cmake-build-debug/CMakeFiles/slepp.dir
+F:/github_project/multi-thread-learning/v1/slepp/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/github_project/multi-thread-learning/v1/slepp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
