@@ -1,0 +1,3 @@
+F:/github_project/multi-thread-learning/v1/Consumer_Producer/cmake-build-debug/CMakeFiles/Consumer_Producer.dir
+F:/github_project/multi-thread-learning/v1/Consumer_Producer/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/github_project/multi-thread-learning/v1/Consumer_Producer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
