@@ -32,7 +32,7 @@ this_thread::sleep_for(chrono::nanoseconds(1000));//阻塞当前线程1000纳秒
 
 ```
 template< class Clock, class Duration >
-void sleep_until( const std::chrono::time_point<Clock,Duration>& sleepk_time );
+void sleep_until( const std::chrono::time_point<Clock,Duration>& sleepk_time );//阻塞当前正在执行的线程直到sleepk_time溢出。
 
 chrono::system_clock::time_point until = chrono::system_clock::now();
 
