@@ -42,6 +42,14 @@ std::atomic<>对象提供了常见的原子操作（通过调用成员函数实�
 
 实现了一个生产者消费者的多线程并发协作模型。
 
+### SafeDeque
+
+基于STL的dequeue容器, 来实现一个线程安全的双端队列。支持自定义等待时间跳出。
+
+```
+const bool result = mCond.wait_for(lock, std::chrono::milliseconds(timeout), [this] {return !mDequeue.empty();});
+```
+
 
 
 实现一个简单的线程池，并逐渐添加功能
