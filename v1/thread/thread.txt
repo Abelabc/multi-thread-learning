@@ -1,0 +1,47 @@
+# V1
+
+## 1.join和detach
+
+### 1.1join
+
+join是会阻塞主线程，然后等当前子线程完成后继续主线程。
+
+### 1.2detach
+
+detach会把当前子线程放到后台去运行，但是完成先后还是不确定。
+
+## 2.创建线程对象
+
+### 2.1通过lambda表达式
+
+```
+// Create a Thread from Lambda function
+    std::thread threadObj([]() {
+        for(int i = 0; i < 5; ++i) {
+            std::cout << "Display Thread Executing" << std::endl;
+        }
+    });
+```
+
+### 2.2通过函数对象
+
+```
+class SomeFunctor
+{
+public:
+
+    void operator()()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            std::cout << "Display Thread Executing" << std::endl;
+        }
+    }
+};
+```
+
+```
+//
+     SomeFunctor func_object;
+    std::thread threadObj(func_object)；
+```

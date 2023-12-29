@@ -50,6 +50,8 @@ std::atomic<>对象提供了常见的原子操作（通过调用成员函数实�
 const bool result = mCond.wait_for(lock, std::chrono::milliseconds(timeout), [this] {return !mDequeue.empty();});
 ```
 
+### Threadpool
 
+C++11实现一个简单的线程池,参考文章如下：
 
-实现一个简单的线程池，并逐渐添加功能
+[基于C++11实现线程池 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/367309864)
