@@ -1,0 +1,3 @@
+E:/multi-thread-learning/v2/placement new/cmake-build-debug/CMakeFiles/placement_new.dir
+E:/multi-thread-learning/v2/placement new/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/multi-thread-learning/v2/placement new/cmake-build-debug/CMakeFiles/rebuild_cache.dir
